@@ -1,0 +1,25 @@
+# ---- Secrets: NEVER commit these ----
+.env
+demo_state.json
+my_secret.json
+
+# ---- Python ----
+venv/
+__pycache__/
+*.pyc
+
+# ---- Node / Hardhat ----
+node_modules/
+cache/
+artifacts/
+coverage/
+coverage.json
+typechain-types/
+
+# ---- Editor / OS ----
+.vscode/
+.DS_Store
+Thumbs.db
+
+# ---- Local data (regenerate with the command in README) ----
+behavior_local.csv

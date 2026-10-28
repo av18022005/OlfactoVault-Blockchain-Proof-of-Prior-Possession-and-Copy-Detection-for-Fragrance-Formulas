@@ -1,0 +1,19 @@
+scenario,swaps,method,mean_score,AUC,detect_at_5pct_FPR
+random swap,3,ingredient overlap,0.6,1.0,100.0
+random swap,3,odor vector,0.748,0.989,94.5
+random swap,6,ingredient overlap,0.333,1.0,100.0
+random swap,6,odor vector,0.429,0.896,64.0
+random swap,9,ingredient overlap,0.143,1.0,100.0
+random swap,9,odor vector,0.248,0.761,38.0
+random swap,12,ingredient overlap,0.0,0.492,0.0
+random swap,12,odor vector,0.007,0.499,5.5
+odor-similar swap,3,ingredient overlap,0.6,1.0,100.0
+odor-similar swap,3,odor vector,0.943,1.0,100.0
+odor-similar swap,6,ingredient overlap,0.333,1.0,100.0
+odor-similar swap,6,odor vector,0.876,1.0,100.0
+odor-similar swap,9,ingredient overlap,0.143,1.0,100.0
+odor-similar swap,9,odor vector,0.815,1.0,100.0
+odor-similar swap,12,ingredient overlap,0.0,0.492,0.0
+odor-similar swap,12,odor vector,0.753,1.0,100.0
+concentration jitter,0,ingredient overlap,1.0,1.0,100.0
+concentration jitter,0,odor vector,0.989,1.0,100.0
